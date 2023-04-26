@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="UCStyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+      <h1>Unit Converter</h1>
+    </header>
+      <form id="converter-form">
+        <div class="input-group">
+          <label for="input-value">Value</label>
+          <input type="number" id="input-value" placeholder="Enter value to convert" />
+        </div>
+        <div class="input-group">
+          <label for="input-unit">From</label>
+          <select id="input-unit">
+            <option value="">Select unit</option>
+            <option value="m">Meters (m)</option>
+            <option value="km">Kilometers (km)</option>
+            <option value="ft">Feet (ft)</option>
+            <option value="mi">Miles (mi)</option>
+            <option value="g">Grams (g)</option>
+            <option value="kg">Kilograms (kg)</option>
+            <option value="oz">Ounces (oz)</option>
+            <option value="lb">Pounds (lb)</option>
+            <option value="ml">Milliliters (ml)</option>
+            <option value="l">Liters (l)</option>
+            <option value="gal">Gallons (gal)</option>
+            <option value="c">Celsius (°C)</option>
+            <option value="f">Fahrenheit (°F)</option>
+            <option value="k">Kelvin (K)</option>
+            <option value="s">Seconds (s)</option>
+            <option value="min">Minutes (min)</option>
+            <option value="h">Hours (h)</option>
+            <option value="d">Days (d)</option>
+          </select>
+        </div>
+        <div class="input-group">
+          <label for="output-unit">To</label>
+          <select id="output-unit">
+            <option value="">Select unit</option>
+            <option value="m">Meters (m)</option>
+            <option value="km">Kilometers (km)</option>
+            <option value="ft">Feet (ft)</option>
+            <option value="mi">Miles (mi)</option>
+            <option value="g">Grams (g)</option>
+            <option value="kg">Kilograms (kg)</option>
+            <option value="oz">Ounces (oz)</option>
+            <option value="lb">Pounds (lb)</option>
+            <option value="ml">Milliliters (ml)</option>
+            <option value="l">Liters (l)</option>
+            <option value="gal">Gallons (gal)</option>
+            <option value="c">Celsius (°C)</option>
+            <option value="f">Fahrenheit (°F)</option>
+            <option value="k">Kelvin (K)</option>
+            <option value="s">Seconds (s)</option>
+            <option value="min">Minutes (min)</option>
+            <option value="h">Hours (h)</option>
+            <option value="d">Days (d)</option>
+          </select>
+        </div>
+        <div class="Convert">
+			<button type="submit" class="btn-convert">Convert</button>
+		  </div>
+		</form>
+		<div class="output-group">
+		  <label for="output-value">Result</label>
+
+		  <input type="text" id="output-value" disabled/>
+		</div>
+	  </div>
+    <footer>
+      <p>&copy; 2023 Unit Converter. All rights reserved.</p>
+    </footer>
+    <script src="UCScript.js"></script>
+	</body>
+	</html>
+ 

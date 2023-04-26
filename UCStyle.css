@@ -1,0 +1,111 @@
+/* Global Styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+  }
+  
+  body {
+	background-color: #f7f7f7;
+  }
+  
+  .container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+	text-align: center;
+	margin-bottom: 40px;
+  }
+  
+  h1 {
+	font-size: 36px;
+	margin-bottom: 10px;
+  }
+  
+  /* Form Styles */
+  form {
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="number"],
+  select {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid #ccc;
+	margin-bottom: 20px;
+	font-size: 16px;
+	outline: none;
+  }
+  
+  label {
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+  }
+  
+  .Convert {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+  }
+  
+  .btn-convert {
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #008CBA;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+  }
+  
+  .btn-convert:hover {
+	background-color: #006b82;
+  }
+  
+  /* Output Styles */
+  .output-group {
+	margin-top: 40px;
+  }
+  
+  #output-value {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid #ccc;
+	font-size: 16px;
+	outline: none;
+	text-align: center;
+  }
+  
+  #output-value::placeholder {
+	color: #ccc;
+  }
+  
+  /* Footer Styles */
+  footer {
+	text-align: center;
+	margin-top: 40px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer p {
+	font-size: 14px;
+	color: #999;
+  }
+  

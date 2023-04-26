@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="bg-image">
+    <img src="https://nwc.edu/academics/photos/program-photos/computer-science.jpg">
+  </section>
+  <section id="home">
+
+    <h1>Noor Ul Eman</h1>
+    <h3>Front-end Developer</h3>
+    <a href="#projects">View My Projects</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a computer science student of undergraduate program. 
+    </p>I'm aspired to enhance my career as a front-end developer.</p>
+    <p>I have practiced and devloped the following skills:</p>
+    <ul>
+      <li> HTML & CSS </li>
+      <li> Responsive Design Conversion</li>
+      <li> JavaScript & jQuery</li>
+      <li> Bootstrap</li>
+      <li> PHP & WordPress</li>
+
+    </ul>
+
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <ul>
+      <li>
+        <h3>Unit Converter</h3>
+        <p>The Unit Converter project is a web-based tool that allows users to convert units of measurement from one system to another.
+         The project is developed using HTML, CSS, and JavaScript, and it provides a user-friendly interface for performing the conversions.</p>
+
+<p>This converter includes several categories, such as length, weight, volume, temperature, and time, and each category supports multiple units.
+The user can select the desired source and target units from drop-down menus, and then input the value to be converted. Once the user initiates the conversion, the JavaScript code performs the calculation and displays the result on the screen.</p>
+
+        <p>The Unit Converter project can be useful for a wide range of users, including students, engineers, scientists, and everyday people who need to convert between different units of measurement. By providing a simple and intuitive interface for performing conversions, the project can save time and increase accuracy in various fields of work and study.</p>
+
+        <a href="Unit Converter.html" href="UCStyle.css">View Project</a>
+        <link rel="UCStyle" type="text/css" href="UCStyle.css">
+      </li>
+      <li>
+        <h3>Online Timer</h3>
+        <p>An online timer alarm project is a web application that allows users to create multiple timers with optional alarms and start, pause, or stop them simultaneously or sequentially. This project can be used for various everyday activities such as cooking meals, taking quizzes, giving speeches, playing sports, or practicing music.</p>
+
+<p>The user interface of the application is created using HTML and styled with CSS. It includes input fields for the user to enter the duration of the timer and an optional label for the timer. The user can also select whether they want to add an alarm sound when the timer ends. The user interface also includes buttons to start, pause, resume, and stop the timer.</p>
+
+<p>The timer is implemented using JavaScript. It is programmed to count down the time entered by the user and play an optional alarm sound when the timer ends. The timer can be set to run simultaneously or sequentially with other timers, giving the user the flexibility to manage multiple tasks at once.</p>
+        <a href="Online Timer.html" href="OTStyle.css">View Project</a>
+      </li>
+
+      <li>
+        <h3>GitHub Explorer</h3>
+        <p>A github explorer that will fetch the details of github user just by entering their username. use the github API to do so that can find details regarding the name of the user, number of repositories, the number of followers and so on</p>
+<p>The user interface of the application is created using HTML and styled with CSS. It includes input fields for the user to enter the username of a GitHub user.</p>
+
+<p>The explorer is implemented using promises in JavaScript and API. It is programmed to redirect to the user's gitHub profile after displaying the username, number of repositories, and number of followers.</p>
+        <a href="Explorer.html" href="ExplorerStyle.css">View Project</a>
+      </li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  
+  <div class="contact-info">
+    <ul>
+      <li><i class="fas fa-phone"></i> Phone: +1234567890</li>
+      <li><i class="fas fa-envelope"></i> Email: nooruleman.tech@email.com</li>
+      <li><i class="fas fa-map-marker-alt"></i> Address: Lahore, Pakistan</li>
+    </ul>
+  </div>
+  
+  </section>
+
+  <footer>
+    <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

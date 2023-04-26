@@ -1,0 +1,292 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  }
+
+  /* Styling for the header */
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+  transition: all 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #007bff;
+}
+
+/* Styling for the hero section */
+.bg-image {
+  background-image: url("https://nwc.edu/academics/photos/program-photos/computer-science.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home {
+  background-color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#home h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#home h3 {
+  font-size: 30px;
+  margin-bottom: 50px;
+  color: #007bff;
+}
+
+#home a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 15px 40px;
+  border-radius: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+#home a:hover {
+  background-color: #fff;
+  color: #007bff;
+}
+
+/* Styling for the about section */
+#about {
+  background-color: #f7f7f7;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 40px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+#about p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#about ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#about li {
+  margin: 20px;
+}
+
+#about li::before {
+  content: "•";
+  color: #007bff;
+  margin-right: 10px;
+}
+
+/* Styling for the projects section */
+#projects {
+  background-color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#projects h2 {
+  font-size: 40px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+#projects ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#projects li {
+  margin: 50px;
+  text-align: left;
+  max-width: 500px;
+}
+
+#projects li h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+  }
+  
+  #projects li p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: #666;
+  }
+  
+  #projects li a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+  }
+  
+  #projects li a:hover {
+  background-color: #666;
+  }
+  
+  #projects .featured {
+  border: 3px solid #333;
+  padding: 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+  }
+  
+  #projects .featured h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+  }
+  
+  #projects .featured p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #666;
+  }
+  
+  #projects .featured a {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+  }
+  
+  #projects .featured a:hover {
+  background-color: #666;
+  }
+  
+  @media screen and (max-width: 768px) {
+  #projects li {
+  width: 100%;
+  }
+  }
+  
+/* Style the main content */
+main {
+  margin: 2rem 0;
+  width: 80%;
+}
+
+#contact {
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+
+#contact h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#contact form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#contact label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#contact input[type="text"], 
+#contact input[type="email"], 
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  font-size: 16px;
+  color: #666;
+}
+
+#contact textarea {
+  height: 150px;
+}
+
+#contact button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#contact button[type="submit"]:hover {
+  background-color: #444;
+}
+
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}  
