@@ -21,5 +21,5 @@
    - GitHub Explorer:
       -Explorer.html
       -ExplorerStyle.css
-      -ExplorerScript.js
+      -Explorer.js
        
