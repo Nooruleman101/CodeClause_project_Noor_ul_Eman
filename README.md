@@ -2,7 +2,7 @@
 
 >> Project 1
   - Portfolio Website:
-       -Portfolio.html
+       -Portfolio website.html
        -style.css
        -script.js
    
@@ -16,6 +16,7 @@
       -Online Timer.html
       -OTStyle.css
       -OTScript.js
+      -alarmclock.mp3
       
  >> Project 3:
    - GitHub Explorer:
